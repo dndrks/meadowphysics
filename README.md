@@ -11,7 +11,51 @@ The seamstress version of meadowphysics is based off of the original module code
 - [https://monome.org/docs/modular/meadowphysics/]()  
 - [https://monome.org/docs/modular/ansible/]()
 
-### keyboard + mouse interactions
+
+### parameters
+
+#### meadowphysics
+
+**start/stop**
+
+- `trigger`-style parameter (right-arrow)
+- turns counting on and off
+- resets counters when toggled
+- also called with external transport start/stop messages
+
+**step length**
+
+- sets the base counter rate
+- ranges from 64th notes to 1 bar (4/4)
+
+**note length**
+
+- when a voice is in trigger mode, determines the length of the played note
+- ranges from 25% to 100% of the step length
+
+#### MIDI output
+
+**port**
+
+- set the outgoing MIDI port
+- displays all MIDI devices connected + present at script load
+
+**midi out channel**
+
+- set the MIDI output channel
+- ranges from 1 to 16
+
+**root note**
+
+- set the root note of the scale
+- global scales are added _to_ this value, so their data remains independent of the root note
+
+**save global scales**
+
+- `trigger`-style parameter (right-arrow)
+- saves a `gridscales.data` file inside of the `<seamstress_path>/data/meadowphysics` folder -- see [below](#state) for more details
+
+### keyboard + mouse interactions {#hardware}
 
 seamstress uniquely offers keyboard and mouse interactions with the main window.
 
@@ -29,7 +73,7 @@ When the scale page is shown:
 - <kbd>ESC</kbd>: de-focus selected variable
 - <kbd>TAB</kbd>: toggle between cascading counters and scale page
 
-### saving + loading state
+### saving + loading state {#state}
 
 Using the PSET system that seamstress provides (run `seamstress -e hello_psets` for instruction), state data is saved to and recalled from a `meadowphysics` folder in your seamstress `data` path. To see your path, execute `path.seamstress` on the command line while seamstress is running.
 
