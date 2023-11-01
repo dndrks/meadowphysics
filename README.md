@@ -1,6 +1,5 @@
 # meadowphysics: seamstress
 
-
 ![](images/mp.png)
 
 ## documentation
@@ -9,7 +8,6 @@ The seamstress version of meadowphysics is based off of the original module code
 
 - [https://monome.org/docs/modular/meadowphysics/]()  
 - [https://monome.org/docs/modular/ansible/]()
-
 
 ### parameters
 
@@ -78,10 +76,8 @@ Using the PSET system that seamstress provides (run `seamstress -e hello_psets` 
 
 Following the practice of the hardware modules, scale data is global -- each PSET reads/writes scale data to/from the same `gridscales.data` file inside of the `<seamstress_path>/data/meadowphysics` folder. This allows you to root many cascading counter explorations in the same custom scales.
 
-## credit
+## credits
 
 meadowphysics was designed and written by [@tehn](https://github.com/tehn) (monome), originally a [max patch](https://github.com/monome/monome-max-package/blob/main/javascript/mp.js) and then a [module](https://github.com/monome/meadowphysics) and later into [another module](https://github.com/monome/ansible).
 
 [@dndrks](https://github.com/dndrks) created this version for [seamstress](https://github.com/ryleelyman/seamstress), which is adapted and extended from the [norns version](https://github.com/alpha-cactus/meadowphysics).
-
-Contributions welcome. Submit a pull request or e-mail [help@monome.org](mailto:help@monome.org).
