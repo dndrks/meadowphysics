@@ -37,9 +37,9 @@ Following the practice of the hardware modules, scale data is global -- each PSE
 
 ## credit
 
-*seamstress* was developed and designed by [Rylee Alanza Lyman](https://ryleealanza.org/) / @ryleelyman, inspired by [matron from norns](https://github.com/monome/norns/tree/main/matron/src). matron was written by @catfact. norns was initiated by @tehn.
+*seamstress* was developed and designed by [Rylee Alanza Lyman](https://ryleealanza.org/) / [@ryleelyman](https://github.com/ryleelyman/), inspired by [matron from norns](https://github.com/monome/norns/tree/main/matron/src). matron was written by [@catfact](https://github.com/catfact). norns was initiated by [@tehn](https://github.com/tehn).
 
-The original module's C code was adapted for norns by @alpha-cactus: [https://github.com/alpha-cactus/meadowphysics]()
+The original module's C code was adapted for norns by [@alpha-cactus](https://github.com/alpha-cactus): [https://github.com/alpha-cactus/meadowphysics]()
 
 The seamstress version of the aforementioned Lua code was adapted and extended by @dndrks for monome.org
 
