@@ -41,6 +41,6 @@ Following the practice of the hardware modules, scale data is global -- each PSE
 
 The original module's C code was adapted for norns by [@alpha-cactus](https://github.com/alpha-cactus): [https://github.com/alpha-cactus/meadowphysics]()
 
-The seamstress version of the aforementioned Lua code was adapted and extended by @dndrks for monome.org
+The seamstress version of the aforementioned Lua code was adapted and extended by [@dndrks](https://github.com/dndrks) for [monome.org](https://monome.org).
 
 Contributions welcome. Submit a pull request or e-mail [help@monome.org](mailto:help@monome.org).
