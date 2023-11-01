@@ -1,6 +1,5 @@
 # meadowphysics: seamstress
 
-Adapted for seamstress by [@dndrks](https://dndrks.com) from [https://github.com/alpha-cactus/meadowphysics]() and [https://github.com/monome/monome-max-package/blob/main/javascript/mp.js]().
 
 ![](images/mp.png)
 
@@ -81,10 +80,8 @@ Following the practice of the hardware modules, scale data is global -- each PSE
 
 ## credit
 
-*seamstress* was developed and designed by [Rylee Alanza Lyman](https://ryleealanza.org/) / [@ryleelyman](https://github.com/ryleelyman/), inspired by [matron from norns](https://github.com/monome/norns/tree/main/matron/src). matron was written by [@catfact](https://github.com/catfact). norns was initiated by [@tehn](https://github.com/tehn).
+meadowphysics was designed and written by [@tehn](https://github.com/tehn) (monome), originally a [max patch](https://github.com/monome/monome-max-package/blob/main/javascript/mp.js) and then a [module](https://github.com/monome/meadowphysics) and later into [another module](https://github.com/monome/ansible).
 
-The original module's C code was adapted for norns by [@alpha-cactus](https://github.com/alpha-cactus): [https://github.com/alpha-cactus/meadowphysics]()
-
-The seamstress version of the aforementioned Lua code was adapted and extended by [@dndrks](https://github.com/dndrks) for [monome.org](https://monome.org).
+[@dndrks](https://github.com/dndrks) created this version for [seamstress](https://github.com/ryleelyman/seamstress), which is adapted and extended from the [norns version](https://github.com/alpha-cactus/meadowphysics).
 
 Contributions welcome. Submit a pull request or e-mail [help@monome.org](mailto:help@monome.org).
