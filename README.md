@@ -18,7 +18,7 @@ The seamstress version of meadowphysics is based off of the original module code
 
 **start/stop**
 
-- `trigger`-style parameter (right-arrow)
+- `toggle`-style parameter (right-arrow)
 - turns counting on and off
 - resets counters when toggled
 - also called with external transport start/stop messages
