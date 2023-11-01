@@ -53,9 +53,9 @@ The seamstress version of meadowphysics is based off of the original module code
 **save global scales**
 
 - `trigger`-style parameter (right-arrow)
-- saves a `gridscales.data` file inside of the `<seamstress_path>/data/meadowphysics` folder -- see [below](#state) for more details
+- saves a `gridscales.data` file inside of the `<seamstress_path>/data/meadowphysics` folder -- see [below](#saving--loading) for more details
 
-### keyboard + mouse interactions {#hardware}
+### keyboard + mouse interactions
 
 seamstress uniquely offers keyboard and mouse interactions with the main window.
 
@@ -73,7 +73,7 @@ When the scale page is shown:
 - <kbd>ESC</kbd>: de-focus selected variable
 - <kbd>TAB</kbd>: toggle between cascading counters and scale page
 
-### saving + loading state {#state}
+### saving + loading state
 
 Using the PSET system that seamstress provides (run `seamstress -e hello_psets` for instruction), state data is saved to and recalled from a `meadowphysics` folder in your seamstress `data` path. To see your path, execute `path.seamstress` on the command line while seamstress is running.
 
