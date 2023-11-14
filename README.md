@@ -15,7 +15,7 @@ The seamstress version of meadowphysics is based off of the original module code
 
 **start/stop**
 
-- `toggle`-style parameter (right-arrow)
+- `toggle`-style parameter (<kbd>RIGHT ARROW</kbd>)
 - turns counting on and off
 - resets counters when toggled
 - also called with external transport start/stop messages
@@ -49,8 +49,8 @@ The seamstress version of meadowphysics is based off of the original module code
 
 **save global scales**
 
-- `trigger`-style parameter (right-arrow)
-- saves a `gridscales.data` file inside of the `<seamstress_path>/data/meadowphysics` folder -- see [below](#saving--loading) for more details
+- `trigger`-style parameter (<kbd>RIGHT ARROW</kbd>)
+- saves a `gridscales.data` file inside of the `<seamstress_path>/data/meadowphysics` folder -- see [below](#saving--loading-state) for more details
 
 ### keyboard + mouse interactions
 
