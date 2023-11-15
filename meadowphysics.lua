@@ -3,8 +3,8 @@
 --   from https://github.com/alpha-cactus/meadowphysics
 --   and https://github.com/monome/monome-max-package/blob/main/javascript/mp.js
 
-MeadowPhysics = include("meadowphysics/lib/meadowphysics")
-GridScales = include("meadowphysics/lib/gridscales")
+MeadowPhysics = include("lib/meadowphysics")
+GridScales = include("lib/gridscales")
 mu = require("musicutil")
 mp_grid = include("lib/grid")
 mp_screen = include("lib/screen")
